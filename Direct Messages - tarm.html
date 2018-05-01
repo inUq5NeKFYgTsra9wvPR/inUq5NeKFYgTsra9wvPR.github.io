@@ -1,0 +1,398 @@
+<!-- https://github.com/Tyrrrz/DiscordChatExporter -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Direct Messages - tarm</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<style>body {
+    background-color: #36393E;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #0096CF;
+    text-decoration: none;
+}
+
+a:hover {
+     text-decoration: underline;
+}
+
+div.pre {
+    background-color: #2F3136;
+    color: rgb(131, 148, 150);
+    font-family: Consolas, Courier New, Courier, Monospace;
+    margin-top: 4px;
+    padding: 8px;
+    white-space: pre-wrap;
+}
+
+span.pre {
+    background-color: #2F3136;
+    font-family: Consolas, Courier New, Courier, Monospace;
+    padding-left: 2px;
+    padding-right: 2px;
+    white-space: pre-wrap;
+}
+
+div#info {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 100%;
+}
+
+div#log {
+     max-width: 100%;
+}
+
+img.guild-icon {
+    max-height: 64px;
+    max-width: 64px;
+}
+
+div.info-right {
+    flex: 1;
+    margin-left: 10px;
+}
+
+div.guild-name {
+    color: #FFFFFF;
+    font-size: 1.4em;
+}
+
+div.channel-name {
+    color: #FFFFFF;
+    font-size: 1.2em;
+}
+
+div.channel-topic {
+    margin-top: 2px;
+    color: #FFFFFF;
+}
+
+div.channel-messagecount {
+    margin-top: 2px;
+}
+
+div.msg {
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+div.msg-left {
+    height: 40px;
+    width: 40px;
+}
+
+img.msg-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+div.msg-right {
+    flex: 1;
+    margin-left: 20px;
+    min-width: 50%;
+}
+
+span.msg-user {
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+span.msg-date {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: .75em;
+    margin-left: 5px;
+}
+
+span.msg-edited {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: .8em;
+    margin-left: 5px;
+}
+
+div.msg-content {
+    font-size: .9375em;
+    padding-top: 5px;
+    word-wrap: break-word;
+}
+
+div.msg-attachment {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+img.msg-attachment {
+    max-height: 500px;
+    max-width: 50%;
+}
+
+img.emoji {
+    height: 24px;
+    width: 24px;
+    vertical-align: -.4em;
+}
+
+span.mention {
+    font-weight: 600;
+}</style>
+</head>
+<body>
+<div id="info">
+<div class="info-left">
+<img class="guild-icon" src="https://cdn.discordapp.com/embed/avatars/0.png" />
+</div>
+<div class="info-right">
+<div class="guild-name">Direct Messages</div>
+<div class="channel-name">tarm</div>
+<div class="channel-topic"></div>
+<div class="channel-messagecount">35 messages</div>
+</div>
+</div>
+<div id="log">
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143772403829309440/67c5f96591a8e99e3fe4840e70e315cd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="tarm#8682">tarm</span>
+<span class="msg-date">16-Apr-18 08:19 PM</span>
+<div class="msg-content">
+<a href="https://discord.gg/cwcjRk">https://discord.gg/cwcjRk</a></div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143772403829309440/67c5f96591a8e99e3fe4840e70e315cd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="tarm#8682">tarm</span>
+<span class="msg-date">30-Apr-18 07:32 PM</span>
+<div class="msg-content">
+hi</div>
+<div class="msg-content">
+&#128515;</div>
+<div class="msg-content">
+whats up</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/166288214485630976/85ecc294f9320c42f1a857ad1d22ee14.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="￵￵#3056">￵￵</span>
+<span class="msg-date">30-Apr-18 07:33 PM</span>
+<div class="msg-content">
+hey</div>
+<div class="msg-content">
+hru</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143772403829309440/67c5f96591a8e99e3fe4840e70e315cd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="tarm#8682">tarm</span>
+<span class="msg-date">30-Apr-18 07:33 PM</span>
+<div class="msg-content">
+im fine a bit tired</div>
+<div class="msg-content">
+u ?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/166288214485630976/85ecc294f9320c42f1a857ad1d22ee14.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="￵￵#3056">￵￵</span>
+<span class="msg-date">30-Apr-18 07:33 PM</span>
+<div class="msg-content">
+im good, studying atm &#128516;</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143772403829309440/67c5f96591a8e99e3fe4840e70e315cd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="tarm#8682">tarm</span>
+<span class="msg-date">30-Apr-18 07:33 PM</span>
+<div class="msg-content">
+also ur from greek&#39;s discord?</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/166288214485630976/85ecc294f9320c42f1a857ad1d22ee14.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="￵￵#3056">￵￵</span>
+<span class="msg-date">30-Apr-18 07:33 PM</span>
+<div class="msg-content">
+yh i am</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143772403829309440/67c5f96591a8e99e3fe4840e70e315cd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="tarm#8682">tarm</span>
+<span class="msg-date">30-Apr-18 07:34 PM</span>
+<div class="msg-content">
+cool</div>
+<div class="msg-content">
+hey um</div>
+<div class="msg-content">
+why is ur steam profile like</div>
+<div class="msg-content">
+those fake chinese bot profiles</div>
+<div class="msg-content">
+i&#39;m curious</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/166288214485630976/85ecc294f9320c42f1a857ad1d22ee14.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="￵￵#3056">￵￵</span>
+<span class="msg-date">30-Apr-18 07:34 PM</span>
+<div class="msg-content">
+idk bro</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143772403829309440/67c5f96591a8e99e3fe4840e70e315cd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="tarm#8682">tarm</span>
+<span class="msg-date">30-Apr-18 07:34 PM</span>
+<div class="msg-content">
+tell me bitch</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/166288214485630976/85ecc294f9320c42f1a857ad1d22ee14.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="￵￵#3056">￵￵</span>
+<span class="msg-date">30-Apr-18 07:34 PM</span>
+<div class="msg-content">
+lol</div>
+<div class="msg-content">
+just an account to make this alt look legit</div>
+<div class="msg-content">
+thats all</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143772403829309440/67c5f96591a8e99e3fe4840e70e315cd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="tarm#8682">tarm</span>
+<span class="msg-date">30-Apr-18 07:35 PM</span>
+<div class="msg-content">
+oh ok</div>
+<div class="msg-content">
+whts ur main mate</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/166288214485630976/85ecc294f9320c42f1a857ad1d22ee14.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="￵￵#3056">￵￵</span>
+<span class="msg-date">30-Apr-18 07:37 PM</span>
+<div class="msg-content">
+cant tell u bro</div>
+<div class="msg-content">
+sry</div>
+<div class="msg-content">
+u dont talk to me tho so u prob couldnt guess</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143772403829309440/67c5f96591a8e99e3fe4840e70e315cd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="tarm#8682">tarm</span>
+<span class="msg-date">30-Apr-18 07:37 PM</span>
+<div class="msg-content">
+u look like an edgy feller anyways</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/166288214485630976/85ecc294f9320c42f1a857ad1d22ee14.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="￵￵#3056">￵￵</span>
+<span class="msg-date">30-Apr-18 07:37 PM</span>
+<div class="msg-content">
+na</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143772403829309440/67c5f96591a8e99e3fe4840e70e315cd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="tarm#8682">tarm</span>
+<span class="msg-date">30-Apr-18 07:37 PM</span>
+<div class="msg-content">
+just from the pic</div>
+<div class="msg-content">
+and like name</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/166288214485630976/85ecc294f9320c42f1a857ad1d22ee14.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="￵￵#3056">￵￵</span>
+<span class="msg-date">30-Apr-18 07:37 PM</span>
+<div class="msg-content">
+yh</div>
+<div class="msg-content">
+i searched black white tumblr on google images for this pic bro</div>
+<div class="msg-content">
+its pretty nuts</div>
+<div class="msg-content">
+very edgy</div>
+</div>
+</div>
+<div class="msg">
+<div class="msg-left">
+<img class="msg-avatar" src="https://cdn.discordapp.com/avatars/143772403829309440/67c5f96591a8e99e3fe4840e70e315cd.png" />
+</div>
+<div class="msg-right">
+<span class="msg-user" title="tarm#8682">tarm</span>
+<span class="msg-date">30-Apr-18 07:38 PM</span>
+<div class="msg-content">
+it is</div>
+</div>
+</div>
+</div>
+</body>
+</html>
