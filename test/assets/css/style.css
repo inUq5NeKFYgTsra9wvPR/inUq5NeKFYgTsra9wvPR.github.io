@@ -45,16 +45,32 @@ p {
 	left: 15%;
 }
 
+.one h2 {
+	font-size: 20px;
+	text-align: center;
+	line-height: 
+}
+
 .two {
 	position: fixed;
 	top: 20%;
 	left: 40%;
 }
 
+.two h2 {
+	font-size: 20px;
+	text-align: center;
+}
+
 .three {
 	position: fixed;
 	top: 20%;
 	left: 65%;
+}
+
+.three h2 {
+	font-size: 20px;
+	text-align: center;
 }
 
 .accounts {
