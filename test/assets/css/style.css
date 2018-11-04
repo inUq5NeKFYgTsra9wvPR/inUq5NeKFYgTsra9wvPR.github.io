@@ -40,9 +40,10 @@ p {
 }
 
 .one {
-	position: fixed;
+	position: absolute;
 	top: 20%;
 	left: 15%;
+	margin: 20px;
 }
 
 .one h2 {
@@ -52,9 +53,10 @@ p {
 }
 
 .two {
-	position: fixed;
+	position: absolute;
 	top: 20%;
 	left: 40%;
+	margin: 20px;
 }
 
 .two h2 {
@@ -63,12 +65,49 @@ p {
 }
 
 .three {
-	position: fixed;
+	position: absolute;
 	top: 20%;
 	left: 65%;
+	margin: 20px;
 }
 
 .three h2 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.four {
+	position: absolute;
+	top: 65%;
+	left: 15%;
+	margin: 20px;
+}
+
+.four h2 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.five {
+	position: absolute;
+	top: 65%;
+	left: 40%;
+	margin: 20px;
+}
+
+.five h2 {
+	font-size: 20px;
+	text-align: center;
+}
+
+.six {
+	position: absolute;
+	top: 65%;
+	left: 65%;
+	margin: 20px;
+}
+
+.six h2 {
 	font-size: 20px;
 	text-align: center;
 }
@@ -143,8 +182,8 @@ p {
 	margin-left: -30px;
 	border-radius: 50%;
 	border: 2px solid transparent;
-	border-top-color: red;
-	border-bottom-color: red;
+	border-top-color: white;
+	border-bottom-color: white;
 	animation: spinner 0.7s ease infinite;
 }
 
