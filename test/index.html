@@ -20,7 +20,7 @@
 				<li><a href="#">About</a></li>
 				<li><a href="#">FAQ</a></li>
 				<li><a href="#">Terms of Service</a></li>
-				<li><a href="#">Twitter</a></li>
+				<li><a target="_blank "href="https://twitter.com/">Twitter</a></li>
 			</ul>
 			<h1>Store Name or Logo</h1>
 			<!-- <a href="/"><img src="logo.png"></a> -->
@@ -28,16 +28,17 @@
 		<center>
 			<!-- product one -->
 			<div class="one">
-			<div class="accounts">
-			<div class="header">
-				<h2>Unmigrated Minecraft - $6</h2>
-			</div>
+				<div class="accounts">
+					<div class="header">
+						<h2>Unmigrated Minecraft - $6</h2>
+					</div>
 			<div class="content">
 				<img src="assets/images/mc1.png" alt="minecraft" style="width: 30%">
 				<p>Description Description Description Description Description</p>
 			</div>
 			<div class="footer">
 				<a data-selly-product="b9ca72b3" style="font-size:"100px">Buy Now</a>
+				<!-- change data-selly-product for diff products -->
 			</div>
 		</div>
 	</div>
@@ -53,6 +54,7 @@
 			</div>
 			<div class="footer">
 				<a data-selly-product="b9ca72b3" style="font-size:"100px">Buy Now</a>
+				<!-- change data-selly-product for diff products -->
 			</div>
 		</div>
 		</div>
@@ -68,6 +70,7 @@
 			</div>
 			<div class="footer">
 				<a data-selly-product="b9ca72b3" style="font-size:"100px">Buy Now</a>
+				<!-- change data-selly-product for diff products -->
 			</div>
 		</div>
 	</div>
@@ -83,6 +86,7 @@
 			</div>
 			<div class="footer">
 				<a data-selly-product="b9ca72b3" style="font-size:"100px">Buy Now</a>
+				<!-- change data-selly-product for diff products -->
 			</div>
 		</div>
 	</div>
@@ -98,6 +102,7 @@
 			</div>
 			<div class="footer">
 				<a data-selly-product="b9ca72b3" style="font-size:"100px">Buy Now</a>
+				<!-- change data-selly-product for diff products -->
 			</div>
 		</div>
 	</div>
@@ -113,6 +118,7 @@
 			</div>
 			<div class="footer">
 				<a data-selly-product="b9ca72b3" style="font-size:"100px">Buy Now</a>
+				<!-- change data-selly-product for diff products -->
 			</div>
 		</div>
 	</div>
@@ -125,13 +131,15 @@
 			document.querySelector('.main .three').style.display = "none";
 			document.querySelector('.main .two').style.display = "none";
 			document.querySelector('.main .one').style.display = "none";
+			document.querySelector('.main ul').style.display = "none";
 			document.querySelector('.main h1').style.display = "none";
 			document.querySelector('.main').classList.add('spinner-2');
 			
 
 			setTimeout(() => {
 				document.querySelector('.main').classList.remove('spinner-2');
-				document.querySelector(".main h1").style.display = "block";
+				document.querySelector('.main h1').style.display = "block";
+				document.querySelector('.main ul').style.display = "block";
 				document.querySelector('.main .one').style.display = "block";
 				document.querySelector('.main .two').style.display = "block";
 				document.querySelector('.main .three').style.display = "block";
@@ -139,8 +147,6 @@
 				document.querySelector('.main .five').style.display = "block";
 				document.querySelector('.main .six').style.display = "block";
 			}, 2000);
-
-
 		</script>
 </body>
 </html>

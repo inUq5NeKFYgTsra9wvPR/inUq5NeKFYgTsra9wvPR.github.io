@@ -152,6 +152,14 @@ p {
 	background-color: #d3d3d3;
 }
 
+#footer {
+	position: relative;
+	margin-top: -180px;
+	height: 180px;
+	clear: both;
+	background-color: #333;
+}
+
 /* Spinner 1*/
 .spinner-1:before{
 	content:"";
